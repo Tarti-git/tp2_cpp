@@ -13,6 +13,7 @@ public:
 	float getY();
 	float getZ();
 	void affiche();
+	int nombre();
 	Vecteur3D somme(Vecteur3D &vect);
 	Vecteur3D scalaire(Vecteur3D &vect);
 

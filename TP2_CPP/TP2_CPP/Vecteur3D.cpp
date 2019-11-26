@@ -2,6 +2,8 @@
 
 using namespace std;
 
+static int nb_point = 0;
+
 float Vecteur3D::getX()
 {
 	return x;
@@ -20,6 +22,11 @@ float Vecteur3D::getZ()
 void Vecteur3D::affiche()
 {
 	cout << "<" << x << ", " << y << ", " << z << ">" << endl;
+}
+
+int Vecteur3D::nombre()
+{
+	return nb_point;
 }
 
 Vecteur3D Vecteur3D::somme(Vecteur3D& vect)
@@ -89,6 +96,6 @@ bool Vecteur3D::coincide3(Vecteur3D& vect)
 		return false;
 }
 
-Vecteur3D::Vecteur3D(float x, float y, float z) : x(x), y(y), z(z) {};
+Vecteur3D::Vecteur3D(float x, float y, float z) : x(x), y(y), z(z) { nb_point++; };
 
 Vecteur3D::~Vecteur3D() {}
