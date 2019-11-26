@@ -1,5 +1,7 @@
 #include "Vecteur3D.h"
 
+using namespace std;
+
 float Vecteur3D::getX()
 {
 	return x;
@@ -13,6 +15,21 @@ float Vecteur3D::getY()
 float Vecteur3D::getZ()
 {
 	return z;
+}
+
+void Vecteur3D::affiche()
+{
+	cout << "<" << x << ", " << y << ", " << z << ">" << endl;
+}
+
+Vecteur3D Vecteur3D::somme(Vecteur3D& vect)
+{
+	return Vecteur3D(x + vect.x, y + vect.y, z + vect.z);
+}
+
+Vecteur3D Vecteur3D::scalaire(Vecteur3D& vect)
+{
+	return Vecteur3D(x * vect.x, y * vect.y, z * vect.z);
 }
 
 float Vecteur3D::normax(Vecteur3D vect)

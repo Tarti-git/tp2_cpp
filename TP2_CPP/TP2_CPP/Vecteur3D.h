@@ -12,6 +12,9 @@ public:
 	float getX();
 	float getY();
 	float getZ();
+	void affiche();
+	Vecteur3D somme(Vecteur3D &vect);
+	Vecteur3D scalaire(Vecteur3D &vect);
 
 	///////////////////////////////////////
 	//fonction membre normax utilisant la transmission par valeur
