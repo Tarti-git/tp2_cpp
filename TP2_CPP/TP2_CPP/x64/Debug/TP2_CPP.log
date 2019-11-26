@@ -1,3 +1,9 @@
 ﻿  TP2_CPP.cpp
+  Vecteur3D.cpp
+  Génération de code en cours...
 C:\Users\baptiste.kissel\Documents\GitHub\tp2_cpp\TP2_CPP\TP2_CPP\TP2_CPP.cpp(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\baptiste.kissel\Documents\GitHub\tp2_cpp\TP2_CPP\TP2_CPP\Vecteur3D.cpp(46): warning C4172: retourne l'adresse d'une variable locale ou : norm1 temporaire
+C:\Users\baptiste.kissel\Documents\GitHub\tp2_cpp\TP2_CPP\TP2_CPP\Vecteur3D.cpp(35): warning C4172: retourne l'adresse d'une variable locale ou : norm1 temporaire
+C:\Users\baptiste.kissel\Documents\GitHub\tp2_cpp\TP2_CPP\TP2_CPP\Vecteur3D.cpp(48): warning C4172: retourne l'adresse d'une variable locale ou : norm2 temporaire
+C:\Users\baptiste.kissel\Documents\GitHub\tp2_cpp\TP2_CPP\TP2_CPP\Vecteur3D.cpp(37): warning C4172: retourne l'adresse d'une variable locale ou : norm2 temporaire
   TP2_CPP.vcxproj -> C:\Users\baptiste.kissel\Documents\GitHub\tp2_cpp\TP2_CPP\x64\Debug\TP2_CPP.exe

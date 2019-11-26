@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 
 class Vecteur3D
 {
@@ -11,6 +12,17 @@ public:
 	float getX();
 	float getY();
 	float getZ();
+
+	///////////////////////////////////////
+	//fonction membre normax utilisant la transmission par valeur
+	float normax(Vecteur3D vect);
+	///////////////////////////////////////
+	//fonction membre normax utilisant la transmission par adresse
+	float *normax2(Vecteur3D *vect);
+	///////////////////////////////////////
+	//fonction membre normax utilisant la transmission par reference
+	float &normax3(Vecteur3D &vect);
+	///////////////////////////////////////
 
 	///////////////////////////////////////
 	//fonction membre coincide utilisant la transmission par valeur
